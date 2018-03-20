@@ -1,7 +1,14 @@
 
         
+        #anchor-tag {
+            text-decoration: none !important;
+        }
         
-        
+        #carousel-img {
+            height: 500px;
+            width: -webkit-fill-available;
+        }
+
         #nav-color {
             background-color: #d35400;
         }
@@ -27,7 +34,7 @@
         
       
         a {
-            text-decoration: none;
+            text-decoration: none !important;
         }
 
         body {
@@ -55,7 +62,7 @@
         .jumbotron {
             background-color: red;
             color: #fff;
-            padding: 100px 25px;
+            padding: 80px 25px;
             font-family: Montserrat, sans-serif;
         }
 
