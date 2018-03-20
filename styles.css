@@ -33,15 +33,27 @@
         }
         
       
-        a {
-            text-decoration: none !important;
-        }
 
         body {
-            font: 400 15px Lato, sans-serif;
+            font-family: 'Roboto Mono', monospace;
             line-height: 1.8;
             color: #818181;
         }
+        
+        footer {
+            
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #d35400;
+            color: white;
+            text-align: center;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 10px;
+            text-decoration: none !important;
+        }
+        
+        
 
         h2 {
             font-size: 24px;
@@ -134,7 +146,8 @@
 
         .panel-footer .btn:hover {
             border: 1px solid red;
-            background-color: #fff !important;
+            background-color: 
+            #fff !important;
             color: red;
         }
 
